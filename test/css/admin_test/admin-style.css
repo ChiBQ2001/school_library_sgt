@@ -1,0 +1,134 @@
+/*
+    This file color use admin
+    Create date( dd-mm-yy ) : 14/09/2022
+*/
+/*
+  This file use admin
+  Create date (dd-mm-yy): 10/08/2022
+*/
+/*
+  use news
+*/
+/*table news column*/
+.column-content {
+  width: 30%; }
+
+.column-category {
+  width: 10%; }
+
+.column-create_by {
+  width: 10%; }
+
+.column-email {
+  width: 10%; }
+
+.column-img {
+  width: 10%;
+  height: 60px; }
+
+/* edit item cell*/
+.title-cell {
+  padding-top: 15px; }
+  .title-cell label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ee8585;
+    padding: auto; }
+
+.type, .text-cell .type-text, .text-cell .type-number, .text-cell .type-phone, .text-cell .type-email, .text-cell .type-number-dot {
+  width: 50%;
+  height: 40px;
+  border-radius: 2px;
+  box-shadow: 1px 2px #888888;
+  border: 1px lavender solid; }
+
+/* two column*/
+.meta-row-two-column {
+  height: 60px;
+  margin: 10px 0px 20px; }
+
+.meta-row-two-column .col {
+  float: left;
+  width: 33.2%; }
+
+.meta-row-two-column .col .title-cell {
+  height: 22px; }
+
+.meta-row-two-column .col .text-cell {
+  width: 100%; }
+
+/* message*/
+.error {
+  font-size: 15px;
+  color: #ff1919;
+  margin-left: 10px; }
+
+.error ::after {
+  content: "!"; }
+
+/* member-category tbl*/
+.category_list {
+  border: 1px solid;
+  margin: 5px;
+  border-radius: 2px; }
+  .category_list li {
+    border-bottom: 1px solid;
+    line-height: 30px;
+    padding: 0px;
+    margin: 0px;
+    height: 35px; }
+  .category_list li:last-child {
+    border-bottom: 0px; }
+  .category_list li:first-child {
+    height: 50px;
+    background-color: peachpuff;
+    color: black;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: bold; }
+  .category_list li:nth-child(even) {
+    background-color: white;
+    display: block; }
+  .category_list li div {
+    float: left;
+    text-align: center;
+    height: 30px; }
+  .category_list li div:nth-child(1) {
+    width: 25%; }
+  .category_list li div:nth-child(2) {
+    width: 50%; }
+  .category_list li div:nth-child(3) {
+    width: 25%; }
+  .category_list li div a {
+    text-decoration: none;
+    font-weight: bold; }
+
+/* image */
+.show-img {
+  width: 250px;
+  height: 180px;
+  border-radius: 2px;
+  border: 1px #8b8b91 solid;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 0 4px #c5c5eb);
+  background-repeat: no-repeat; }
+
+/* check-box */
+.checkbox-label {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ee8585;
+  padding: auto; }
+
+.show-home {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #ee8585; }
+
+/*
+    This file color use admin
+    Create date( dd-mm-yy ) : 14/09/2022
+*/
+
+/*# sourceMappingURL=admin-style.css.map */
