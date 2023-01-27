@@ -1,0 +1,9 @@
+website: http://localhost/training
+username: Admin
+password: training123456
+
+//file config sau khi dang nhap admin
+DB_NAME: training
+DB_USER: root
+DB_PASSWORD: ''
+DB_CHARSET: 'utf8mb4'
